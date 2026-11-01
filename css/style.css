@@ -785,87 +785,7 @@ h1 span {
     color: var(--muted);
 }
 
-/* ==============================
-   CONTATO
-============================== */
-
-.contact-wrap {
-    display: grid;
-    grid-template-columns: 1.2fr .8fr;
-    gap: 70px;
-    align-items: center;
-    min-width: 0;
-}
-
-.contact-title {
-    font-size: 27px;
-    margin: 0 0 8px;
-}
-
-.contact-wrap > div > p {
-    color: var(--muted);
-    font-size: 12px;
-    max-width: 460px;
-}
-
-.email-link {
-    display: inline-block;
-    color: var(--blue-2);
-    font-size: 12px;
-    margin-top: 12px;
-}
-
-/* Botões de contato */
-
-.contact-links {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 140px));
-    justify-content: start;
-    align-items: stretch;
-    gap: 12px;
-    width: 100%;
-    min-width: 0;
-}
-
-.contact-links a {
-    width: 100%;
-    min-width: 0;
-    min-height: 42px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    margin: 0;
-}
-
-/* Cartões de contato */
-
-.contact-card {
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 12px;
-}
-
-.contact-card b {
-    margin-left: auto;
-    color: var(--blue-2);
-}
-
-.contact-card i {
-    font-size: 22px;
-}
-
-.linkedin-icon,
-.whatsapp-icon {
-    font-weight: 800;
-    color: var(--blue-2);
-    font-size: 20px;
-}
-/* ==============================
-   CONTATO
-============================== */
+/* Contato */
 
 .contact-wrap {
     display: grid;
@@ -943,9 +863,7 @@ h1 span {
 }
 
 
-/* ==============================
-   RESPONSIVIDADE - TABLETS
-============================== */
+/* Responsividade - Tablets */
 
 @media (max-width: 1000px) {
 
@@ -956,9 +874,7 @@ h1 span {
 }
 
 
-/* ==============================
-   RESPONSIVIDADE - MOBILE
-============================== */
+/* Responsividade - Mobile */
 
 @media (max-width: 720px) {
 
@@ -976,9 +892,7 @@ h1 span {
 }
 
 
-/* ==============================
-   RESPONSIVIDADE - TELAS PEQUENAS
-============================== */
+/* Responsividade - Telas Pequenas */
 
 @media (max-width: 440px) {
 
